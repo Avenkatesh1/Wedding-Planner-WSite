@@ -1,7 +1,7 @@
 
 <body>
     <header class="head">
-        <a href="#" class="logo"><h2>Wedding Planner</h2></a>
+        <a href="#" class="logo"><h1>Wedding Planner</h1></a>
         <nav class="navbar ">
             <a href="#" class="active">Home</a>
             <a href="#service">Service</a>
@@ -15,25 +15,30 @@
     <section class="home" id="home">
         <form action="#">
             <div class="search-box">
-                <h1>Welcome My Website</h1>
+                <h1>Welcome to My Website</h1>
                 <p>Find the best wedding vendors with thousands of trusted reviews</p>
-                <select type="text" class="search-field">
-            <option disabled selected>Select vendor type</option>
-            <option value="Wedding Venues">Wedding Venues</option>
-            <option value="Family makeup">Family makeup</option>
-            <option value="bridal makeup">Bridal Makeup</option>
-            <option value="Groom Wear">Groom Wear</option>
-            <option value="Wedding Decoration">Wedding decoration</option>
-        </select>
-                <select type="text" class="search-field">
-            <option disabled selected>City</option>
-            <option value="Anand">Anand</option>
-            <option value="Ahemdabad">Ahemdabad</option>
-            <option value="Mumbai">Mumbai</option>
-            <option value="Baroda">Baroda</option>
-            <option value="Goa">Goa</option>
-        </select>
-                <button class="btn">Search</button>
+        <div class="select">
+            <select type="text" class="search-field">
+                <option disabled selected>Select vendor type</option>
+                <option value="Wedding Venues">Wedding Venues</option>
+                <option value="Family makeup">Family makeup</option>
+                <option value="bridal makeup">Bridal Makeup</option>
+                <option value="Groom Wear">Groom Wear</option>
+                <option value="Wedding Decoration">Wedding decoration</option>
+            </select>&nbsp;&nbsp;
+            <select type="text" class="search-field">
+                <option disabled selected>City</option>
+                <option value="Anand">Anand</option>
+                <option value="Ahemdabad">Ahemdabad</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Baroda">Baroda</option>
+                <option value="Goa">Goa</option>
+            </select>
+        </div>
+            </div>
+            <div class="button">
+                <button style="margin-left: 45%;" class="btn">Search</button>
+
             </div>
         </form>
     </section>
@@ -188,7 +193,11 @@
         <div class="container">
             <div class="f-container">
                 <h2>Wedding Planner - Your Personal Wedding Planner</h2><br>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quis reiciendis asperiores a accusantium labore officiis voluptates quas adipisci aliquid ea, repudiandae tempore accusamus perferendis reprehenderit voluptate illum facilis quasi dolores eaque. Officia amet ipsam quibusdam atque? Doloremque obcaecati, nisi amet soluta eligendi consequatur aspernatur deleniti, mollitia possimus sed aperiam.</p>
+                <p>Wedding planners support couples and their families with the organisation, 
+                 hiring, purchasing and management involved with planning a successful wedding. 
+                 For some clients, they will only be involved in specific aspects of the process, 
+                 such as hiring caterers and entertainment or supporting on the day itself. For others, 
+                 wedding planners will be responsible for organising almost every detail.</p>
                 <div>
                     <button class="btn">Register as a Vendor</button>
                 </div>
@@ -215,18 +224,29 @@
                 
                 <div class="f-container ">
                     <h2>Contact Me</h2>
-                    <p>Enter Your Name.</p>
-                    <input type="text" name="name" id="" placeholder="Enter Your Name">
-                    <p>Enter Your Email</p>
-                    <input type="text " placeholder="Enter Your Email ">
-                    <p>Enter Your Add</p>
-                    <input style="height: 100px;" type="text" name="" id="" placeholder="Enter Your Add:">
+                    <form class="forms">
+                        <div class="user">
+                            <label>UserName:</label><br>
+                            <input type="text" name="name" id="" placeholder="Enter Your Name"><br>
+                            </div>
+                            <div class="email">
+                            <label>Email:</label><br>
+                            <input type="text " placeholder="Enter Your Email ">
+                            </div>
+                            <div class="adders">
+                            <label>Adders:</label><br>
+                            <textarea style="width: 90%; height: 100px" type="text" name="" id="" placeholder="Enter Your Add:">
+                            </textarea>
+                            </div>
+                    </form>
+                    <div class="button">
                     <button class="btn ">Send</button>
+                    </div>
                     </div>
             </div>
         </footer>
         <div class="copyright ">
-            <p>Copyright &copy; 2024 Design By Developergtm</p>
+            <p>Copyright &copy; 2024 Design By A Venkatesh</p>
         </div>
 </body>
 <script>
@@ -245,4 +265,4 @@ window.onscroll = () => {
         document.querySelector('#menu-bar').classList.remove('active');
     }
 };
-</script> 
+</script>

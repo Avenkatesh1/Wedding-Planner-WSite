@@ -121,13 +121,15 @@ section h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .head .logo {
-    font-size: 2.5rem;
+    font-size: 20px;
     color: var(--clr3);
     font-weight: 600;
     letter-spacing: .1rem;
+    text-decoration: none;
 }
 
 span {
@@ -139,10 +141,12 @@ span {
     font-size: 1.8rem;
     justify-content: space-between;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .head .navbar .active {
     border-bottom: 2px solid white;
+    text-decoration: none;
 }
 
 .head .navbar a {
@@ -150,6 +154,8 @@ span {
     color: var(--clr3);
     /* border: 1px solid; */
     padding: 8px 20px;
+    text-decoration: none;
+
     /* border-radius: 8px; */
 }
 
@@ -398,6 +404,9 @@ footer {
     color: black;
     padding: 1rem 0;
 }
+.forms{
+    font-size: 1.5rem;
+}
 
 .f-container a {
     font-size: 1.4rem;
@@ -425,7 +434,7 @@ footer {
 
 .f-container input {
     width: 90%;
-    padding: 1rem;
+    padding: 2rem;
     background: #eee;
     border: .2rem solid var(--clr1);
 }
